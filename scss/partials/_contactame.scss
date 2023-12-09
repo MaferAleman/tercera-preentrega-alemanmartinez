@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contactarse {
+    padding: 30px;
+
+    form {
+        fieldset {
+
+            img {
+                width: 400px;
+                height: 450px;
+                border-radius: 10%;
+                border: 1px solid palevioletred;
+                box-shadow: 0 4px 8px purple;
+
+            }
+
+            .datos {
+
+                width: 20%;
+                padding: 7px;
+                margin-left: 35%;
+                border-radius: 55px;
+                //margin-top: 20px;
+                border: 1px solid chocolate;
+                position: relative;
+                top: -360px;
+                box-shadow: 0 4px 2px rgb(86, 86, 86);
+
+            }
+
+            p {
+                margin-left: 20%;
+                color: brown;
+                margin-top: 20px;
+                margin-left: 35%;
+                position: relative;
+                top: -360px;
+
+                a {
+                    font-weight: bold;
+                    text-decoration: none;
+                    color: brown;
+
+                }
+            }
+
+        }
+    }
+}
+
+.boton-enviar{
+    a {
+        .button-compras {
+            margin-left: -70px;
+            font-size: 15px;
+            position: relative;
+            top: -380px;
+            padding: 10px 20px;
+            background-color: #5D7310;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        .button-compras:hover {
+            background-color: chocolate;
+        }
+
+        .button-compras:active {
+            background-color: chocolate;
+        }
+    }
+}
